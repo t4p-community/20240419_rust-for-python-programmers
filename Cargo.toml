@@ -1,0 +1,32 @@
+[workspace]
+    resolver = "2"
+
+members = [
+    "demos_rust/01_hello_world",
+    "demos_rust/02_console_input",
+    "demos_rust/03_error_handling",
+    "demos_rust/04_int_input",
+    "demos_rust/05_int_input_enhanced",
+    "demos_rust/06_color_struct",
+    "demos_rust/07_color_impl",
+    "demos_rust/08_modules",
+    "demos_rust/09_vector",
+    "demos_rust/10_command_loop",
+    "demos_rust/11_color_tool",
+    "demos_rust/12_color_tool_refactor",
+    "demos_rust/13_generic_function",
+    "demos_rust/14_range",
+    "demos_rust/15_shopping_cart",
+    "demos_rust/16_json_file",
+    "demos_rust/17_json_file_refactor",
+    "exercises/exercise_01/solution",
+    "exercises/exercise_02/begin",
+    "exercises/exercise_02/end",
+    "exercises/exercise_02/solution",
+    "exercises/exercise_03/begin",
+    "exercises/exercise_03/end",
+    "exercises/exercise_03/solution",
+    "exercises/exercise_04/begin",
+    "exercises/exercise_04/end",
+    "exercises/exercise_04/solution",
+]
