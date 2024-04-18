@@ -1,0 +1,76 @@
+{
+  "name": "Rust for Python Programmers",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "GitHub.copilot",
+        "GitHub.copilot-chat",
+        "charliermarsh.ruff",
+        "ms-python.mypy-type-checker",
+        "ms-python.python",
+        "rust-lang.rust-analyzer",
+        "vadimcn.vscode-lldb"
+      ],
+      "settings": {
+        "editor.formatOnSave": true,
+        "explorer.compactFolders": false,
+        "terminal.integrated.tabs.enabled": false,
+        "editor.minimap.enabled": false,
+        "editor.tabSize": 2,
+        "editor.insertSpaces": true,
+        "editor.detectIndentation": false,
+        "files.autoSave": "afterDelay",
+        "workbench.startupEditor": "none",
+        "window.zoomLevel": 1,
+        "rust-analyzer.check.command": "clippy",
+        "rust-analyzer.rustfmt.extraArgs": [
+          "--config",
+          "max_width=100"
+        ],
+        "[markdown]": {
+          "editor.wordWrap": "on",
+          "editor.indentSize": 2,
+          "editor.rulers": []
+        },
+        "[python]": {
+          "editor.defaultFormatter": "charliermarsh.ruff",
+          "editor.formatOnSave": true,
+          "editor.tabSize": 4,
+          "editor.inlayHints.enabled": "on",
+          "editor.rulers": [
+            79
+          ]
+        },
+        "[rust]": {
+          "editor.defaultFormatter": "rust-lang.rust-analyzer",
+          "editor.formatOnSave": true,
+          "editor.tabSize": 4,
+          "editor.inlayHints.enabled": "on",
+          "editor.rulers": [
+            100
+          ]
+        },
+        "mypy-type-checker.severity": {
+          "error": "Error",
+          "warning": "Error",
+          "note": "Error",
+          "info": "Error"
+        },
+        "mypy-type-checker.args": [
+          "--config-file=.vscode/mypy.ini"
+        ],
+        "ruff.format.args": [
+          "--line-length",
+          "79"
+        ],
+        "ruff.lint.args": [
+          "--line-length",
+          "79",
+          "--select",
+          "E,F,W,N"
+        ]
+      }
+    }
+  },
+  "dockerFile": "Dockerfile"
+}
