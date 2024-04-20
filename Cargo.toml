@@ -19,6 +19,7 @@ members = [
     "demos_rust/15_shopping_cart",
     "demos_rust/16_json_file",
     "demos_rust/17_json_file_refactor",
+    "demos_rust/random_demo",
     "exercises/exercise_01/solution",
     "exercises/exercise_02/begin",
     "exercises/exercise_02/end",

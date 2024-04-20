@@ -6,7 +6,7 @@ use std::io::{stdin, stdout, Write};
 // a String is a heap-allocated string
 // a &str is a reference to a string
 // String is mutable, &str is immutable
-fn num_input(prompt: &str) -> i32 {
+fn num_input(prompt: &str) -> f64 {
     // loop is a keyword that creates an infinite loop
     loop {
         let mut input = String::new();
@@ -20,7 +20,8 @@ fn num_input(prompt: &str) -> i32 {
         // ::<i32> is a turbofish
         // it tells the compiler to parse the string into an i32
         // to parse a f64, use ::<f64>
-        match input.trim().parse::<i32>() {
+        // match input.trim().parse::<i32>() {
+        match input.trim().parse() {
             // Ok is an enum variant that indicates success
             // num is the value that was parsed
             // break is a keyword that exits the loop

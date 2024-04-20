@@ -6,8 +6,8 @@ pub struct ColorToolApp {
 }
 
 impl ColorToolApp {
-    pub fn new() -> ColorToolApp {
-        ColorToolApp { colors: Vec::new() }
+    pub fn new() -> Self {
+        Self { colors: Vec::new() }
     }
 
     // the method is now a static method

@@ -13,6 +13,17 @@ fn main() {
     // |acc, _| acc + 1 is the closure that is passed to the fold method
     // Rust closures are similar to lambdas in other languages
     let len_of_nums = nums.clone().fold(0, |acc, _| acc + 1);
+
+    // impl Range {
+    //     fn fold(self, init: T, f: F) -> T {
+    //         let mut acc = init;
+    //         for x in self {
+    //             acc = f(acc, x);
+    //         }
+    //         acc
+    //     }
+    // }
+
     println!("Length of nums 2: {}", len_of_nums);
 
     // sum is a method that is available on ranges to calculate the sum of the range

@@ -6,13 +6,14 @@ class Color:
 
 def print_color(color: Color) -> None:
     print(f"Color: {color.name} (#{color.hex_code})")
+    color.name = "hacked"
 
 
 def main() -> None:
     color1 = Color("red", "ff0000")
 
     print_color(color1)
-    # print_color(color1)
+    print_color(color1)
 
 
 if __name__ == "__main__":

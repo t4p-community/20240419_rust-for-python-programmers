@@ -15,7 +15,9 @@ fn main() {
     colors.push(color2);
 
     let color3 = Color::new("blue", "0000ff");
+    // impl { fn push(&mut self, value: T) }
     colors.push(color3);
+
 
     // for iterates over the colors Vec
     for color in colors {

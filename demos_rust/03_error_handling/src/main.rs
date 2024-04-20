@@ -1,5 +1,13 @@
 use std::io::{stdin, stdout, Write};
 
+// call function = Result
+//  -> return value - Ok(value)
+//  -> raise Exception - Err(err)
+
+// call function = Option
+//  -> return value
+//  -> None/null
+
 fn main() {
     let mut name = String::new();
 

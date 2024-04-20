@@ -33,7 +33,8 @@ fn show_colors(colors: &Vec<Color>) {
 
 fn main() {
     // mut declares a mutable variable
-    let mut colors: Vec<Color> = Vec::new();
+    // let mut colors: Vec<Color> = Vec::new();
+    let mut colors = Vec::new();
 
     loop {
         let command = get_input("Enter command: ");

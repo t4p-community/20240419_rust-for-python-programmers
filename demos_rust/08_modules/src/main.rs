@@ -2,7 +2,7 @@
 mod color;
 
 // use makes the module available to the current scope
-use color::Color;
+use crate::color::Color;
 
 fn main() {
     let color1 = Color::new("red", "ff0000");

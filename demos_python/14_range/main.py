@@ -5,6 +5,8 @@ def main() -> None:
     # create a range of numbers from 0 to 9
     nums = range(10)
 
+    print(nums)
+
     print(f"Length of nums 1: {len(nums)}")
 
     # initial value of acc is 0, and for each element in nums, increment acc
